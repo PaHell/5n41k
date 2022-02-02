@@ -3,7 +3,7 @@ import os
 # const
 width = 56
 height = 22
-food = 100
+food = 5
 
 # app
 arch = "\33[90m i use arch btw \33[0m"
@@ -60,6 +60,7 @@ dictGameEnd = {
     "p": ["play", "Play Again"],
     "h": ["highscores", "View Highscores"],
 }
+
 
 def clearTerminal():
     os.system('cls' if os.name == 'nt' else 'clear')
